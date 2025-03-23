@@ -15,5 +15,10 @@ public class Main {
             Instead, it has length attribute.
          */
         System.out.println(arrayInt.length);
+
+        // You can add space between type and [], and you can initiate an empty array using {}.
+        int [][] multArray = {{}, {1}, {2, 2}, {3, 3, 3}, {4, 4, 4, 4}};
+        System.out.println(multArray.length);
+        System.out.println(multArray[3].length);
     }
 }
