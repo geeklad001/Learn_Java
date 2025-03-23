@@ -14,5 +14,9 @@ public class Main {
         char myChar = 'S';
         // Java boolean use lowercase letter as the first letter.
         boolean myBoolean = true;
+
+        // You can actually use dollor sign($) in the identifier of Java.
+        int yeahMy$ = 1000000000;
+        System.out.println(yeahMy$);
     }
 }
